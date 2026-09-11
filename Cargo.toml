@@ -1,0 +1,13 @@
+[package]
+name = "dnest"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(kani)'] }
+
+[package.metadata.kani.flags]
+output-format = "terse"
+unstable = ["concrete-playback", "function-contracts", "loop-contracts", "stubbing"]
