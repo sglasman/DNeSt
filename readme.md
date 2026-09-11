@@ -8,8 +8,8 @@ The basic architecture of DNS parsing using a zero-copy strategy and `no-std`. P
 
 ### Still to do:
 
-Invariants related to name parsing and compression pointers. The major goal of this project: to verify some kind of boundedness or termination statement for DNS parsing.
+Invariants related to name parsing and compression pointers. The major goal of this project: to verify some kind of boundedness or termination statement for DNS parsing. I'm making ongoing efforts to understand the internals of constraint solvers and the Kani framework to help me tackle the technical problems involved.
 
 ### AI declaration
 
-I had conversations with AI concerning architectural strategies and features of the Rust language and the Kani framework. All code was handwritten by me.
+I had conversations with AI concerning architectural strategies and features of the Rust language and the Kani framework. All code and documentation was handwritten by me.
