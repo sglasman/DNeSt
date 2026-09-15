@@ -4,7 +4,7 @@ This work-in-progress project is an ongoing effort to build a DNS parser in Rust
 
 ### What's done:
 
-The basic architecture of DNS parsing using a zero-copy strategy and `no-std`. Parsing structures from byte buffers and verifying some of their invariants: for instance, we verify that if parsing succeeds, the cursor position advances by the number of bytes passed.
+The basic architecture of DNS parsing using a zero-copy strategy and `no-std`. Parsing structures from byte buffers and verifying some of their invariants: for instance, we verify that if parsing succeeds, the cursor position advances by the number of bytes parsed.
 
 ### Still to do:
 
